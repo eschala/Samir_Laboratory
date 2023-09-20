@@ -8,16 +8,78 @@
 </head>
 <body>
     <h1>Calculadora de movimientos</h1>
-    <form action="">
-        <label for="">Tempo</label>
-        <input type="text" name="" id="bpm" required>
-        <label for="">Tiempo</label>
-        <input type="text" name="" id="time" required>
-        <label for="">Compaces</label>
-        <input type="text" name="" id="beat" required>
 
+    <form action="" class="selectionOption">
+        <ul class=""><h2>Calcular</h2>
+            <li><p>Ritmo/Bpm</p><input type="checkbox" name="" id="bpmOption"></li>
+            <li><p>Tiempo</p><input type="checkbox" name="" id="timeOption"></li>
+            <li><p>Compases</p><input type="checkbox" name="" id="beatOption"></li>
+            <li><p>Duracion de movimientos </p><input type="checkbox" name="" id="timeMoves"></li>
+            <li><p>Cantidad de movimientos</p><input type="checkbox" name="" id="amountMoves"></li>
+            <li><button id="" onclick="enviar()">Enviar</button></li>
+        </ul>
+    </form>
+
+
+    <form action="" class="forRitmo">
+        <ul><h2>Ingresar datos para calcular el ritmo</h2>
+            <label for="">Compases</label>
+            <input type="text" name="" id="bpm" required>
+            <label for="">Tiempo</label>
+            <input type="text" name="" id="time" required>
+            <label for="">Resultado</label>
+            <input type="text" name="" id="beat" required>
+        </ul>
 
     </form>
+    <form action="" class="forTiempo">
+        <ul><h2>Ingresar datos para calcular el tiempo</h2>
+            <label for="">Tempo</label>
+            <input type="text" name="" id="bpm" required>
+            <label for="">Compases</label>
+            <input type="text" name="" id="time" required>
+            <label for="">Resultado</label>
+            <input type="text" name="" id="beat" required>
+        </ul>
+
+    </form>
+    <form action="" class="forCompaces">
+        <ul><h2>Ingresar datos para calcular los compaces</h2>
+            <label for="">Tempo</label>
+            <input type="text" name="" id="bpm" required>
+            <label for="">Tiempo</label>
+            <input type="text" name="" id="time" required>
+            <label for="">Resultado</label>
+            <input type="text" name="" id="beat" required>
+        </ul>
+
+    </form>
+    <form action="" class="forDuracionMovimiento">
+        <ul><h2>Ingresar datos para calcular la duracion de movimiento</h2>
+            <label for="">Compases</label>
+            <input type="text" name="" id="bpm" required>
+            <label for="">Tiempo</label>
+            <input type="text" name="" id="time" required>
+            <label for="">Resultado</label>
+            <input type="text" name="" id="beat" required>
+        </ul>
+
+    </form>
+    <form action="" class="forMovimientos">
+        <ul><h2>Ingresar datos para calcular los movimientos</h2>
+            <label for="">Compases</label>
+            <input type="text" name="" id="bpm" required>
+            <label for="">Tiempo</label>
+            <input type="text" name="" id="time" required>
+            <label for="">Resultado</label>
+            <input type="text" name="" id="beat" required>
+        </ul>
+
+    </form>
+
+
+
+
     <script src="CalculadoraBeats_JS_2.js"></script>
 
 

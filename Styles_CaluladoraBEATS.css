@@ -1,0 +1,44 @@
+.forTiempo {
+    /* formulario tiempo */
+
+    display: block;
+
+
+    background-color: rgb(255, 174, 0);
+}
+
+.forCompaces {
+    /* formulario compaz */
+
+    display: block;
+
+
+    background-color: rgb(255, 115, 197);
+}
+
+.forDuracionMovimiento {
+    /* formulario tiempo movimientos */
+
+    display: block;
+
+
+    background-color: rgb(0, 255, 255);
+}
+
+.forMovimientos {
+    /* formulario movimientos */
+
+    display: block;
+
+
+    background-color: rgb(255, 126, 126);
+}
+
+.forRitmo {
+    /* formulario ritmo */
+
+    display: block;
+
+
+    background-color: rgb(88, 255, 152);
+}
