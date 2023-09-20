@@ -1,10 +1,12 @@
-alert("Hola");
+
+
+alert("hola");
 
 let Tempo, Tiempo, Movimientos, Duracion_Moves,bpm,mv,Compases, operacion;
 let Redonda,Blanca,Negra,Corchea,Semicorchea,Fusa,Semifusa;
 var respuesta;
-alert("Escriba que desea calcular");
-alert("1 Calcular bpm"+"</br>"+
+document.write("Escriba que desea calcular");
+document.write("1 Calcular bpm"+"</br>"+
 "2 Calcular Tiempo"+"<br>"+
 "3 Calcular Golpes o compases"+"<br>"+
 "4 Calcular duracion de movimientos"+"<br/>"+
