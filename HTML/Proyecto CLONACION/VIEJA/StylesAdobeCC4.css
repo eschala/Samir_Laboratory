@@ -1,0 +1,46 @@
+.section-4{
+    height: 540px;
+    width: auto;
+    border: 1px solid black;
+}
+
+.section-container-sub-4-1{
+
+    height: 500px;width: auto;
+    margin-left: 40px;margin-right: 40px;
+
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start ;
+
+}
+.section-c-img-sub-4-1{
+
+}
+.s-c-sb-4-1{
+
+    background-size: cover;
+
+}
+
+.section-c-img-sub-4-1-1{
+    border: 1px rgb(9, 23, 81) solid;
+    background-color: rgba(246, 104, 191, 0.216);
+    height: 100%;width: calc(100%/3*2);
+
+    margin-bottom: 20px
+
+}
+
+
+.section-c-img-sub-4-1-2{
+    border: 1px rgb(53, 7, 52) solid;
+    background-color: rgba(246, 104, 191, 0.216);
+    height: 100%;width: calc(100%/3*1);
+
+    margin-bottom: 20px
+
+}
+

@@ -1,0 +1,65 @@
+*{font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+
+
+}
+
+
+.section-header{
+
+}
+.section-nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    background-color: blue;
+    padding-left: 270px;padding-right: 250px;
+    
+
+}
+.section-btn{
+
+}
+
+.c-btn-1{}
+.c-btn-1{}
+.c-btn-1{}
+.c-btn-1{}
+.c-btn-1{}
+.c-btn-1{}
+.c-btn-6{
+    background-color: aqua;
+    width: 350px;
+}
+.c-btn-1{}
+.c-btn-1{}
+
+.btn-link{  
+
+    text-decoration: none;
+    color: azure;
+    
+
+}
+.btn-1{}
+.btn-2{}
+.btn-3{}
+.btn-4{}
+.btn-5{}
+.btn-6{
+
+}
+.btn-7{}
+.btn-8{}
+
+
+.section-footer{
+
+
+    height: 620px;
+    background-color: rgba(0, 0, 255, 0.101);
+    border: 1px solid black;
+    bottom: 0px;
+}

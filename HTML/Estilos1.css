@@ -1,0 +1,85 @@
+*{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1px;
+    text-decoration: none;
+}
+nav{
+    margin: 0%;
+    padding: 10px;
+    /* text-align: center; */
+    /* align-content: center; */
+    opacity: 100%;
+    /* align-items: center; */
+
+
+    background-color: rgb(191, 211, 255);
+}
+.menu0 > li{
+    color: black;
+    margin-inline: 50px;
+}
+.navegacion0{
+    width: 1000px;
+    margin: 30px auto;
+    background-color: blue;
+}
+.navegacion0 ul{
+    list-style: none;
+}
+.menu0 > li{
+    position: relative; 
+    display: inline-block;
+}
+.menu0 > li > a{
+    display: block;
+    padding: 20px 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu0 li a:hover{
+    color: rgba(138, 29, 72, 0.384);
+
+}
+.submenu0{
+    position: absolute;
+    width: 150%;
+    background-color: rgba(159, 152, 220, 0.184);
+
+    display: none;
+    list-style: none;
+}
+.submenu0 li a{
+    display: block;
+    padding: 15px;
+    color: black;
+    background: #c7dcef;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+.menu0 li:hover .submenu0{
+    display: block;
+
+}
+.Label_pading{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+
+}
+/* li label{
+    margin: 20px;
+    padding: 25px;
+} */
+.boton{
+    size: 15px;
+    width: 10px;
+    height: 10px;
+}
+footer{
+
+align-items: center;
+align-content: center ;
+}

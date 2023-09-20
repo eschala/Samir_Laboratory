@@ -1,0 +1,473 @@
+*{
+    font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+
+}
+
+
+
+/* Cabecera */
+.header{
+    
+    
+
+    
+}
+/* Barra de navegacion */
+nav{
+
+    width: 100%;
+
+
+}
+/* barra de navegacion Menu*/
+
+.navbar-M{
+    justify-content: center;
+}
+
+.creative-nav{
+
+    display: flex;
+    background-color: rgb(184, 184, 252);
+    flex-direction: row;
+
+    
+
+}
+/* Espacio de busqueda */
+.label-buscar{
+
+
+}
+div.label-b{
+    background-color: rgba(0, 0, 255, 0.177);
+    width: 360px;
+
+}
+div .creative-navbar-container a{
+
+    
+}
+/* Creative cloud para: */ 
+
+.CC-for{
+
+
+}
+
+
+
+/* Items del menu*/
+.creative-navbar-container{
+    width: fit-content;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 14px;
+    
+
+}
+
+
+
+
+
+
+.hypervinculo-nav{
+
+    text-decoration: none;
+    color: black;
+
+    
+
+}
+
+
+.contenedor-M{
+    border: 3px solid rgb(0, 0, 0);
+
+}
+
+.Creative-Cloud-subcontainer{
+   
+    padding: 20px;
+    text-decoration:none; 
+    
+    font-size: 16px;
+    text-align: center;
+    height: 30px;
+    border-bottom: 5px rgb(52, 0, 150) solid;
+  
+}
+.creative-link-text{
+
+    text-decoration: none;
+    display: inline;
+    margin: 15px;
+
+
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+/* 
+clases para edicion de imagenes */
+
+
+
+.image-1{
+    background-size:cover;
+    height: 45%;width: auto;
+    position: absolute;
+    z-index: 0;
+    left: auto;right: auto;
+    top: auto;bottom: auto;
+
+}
+.image-2{
+    background-size:cover;
+    height: 45%;width: auto;
+    position: absolute;
+    z-index: 0;
+    left: auto;right: auto;
+    top: auto;bottom: auto;
+
+}
+.image-3{
+    background-size:cover;
+    height: 45%;width: auto;
+    position: absolute;
+    z-index: 0;
+    left: auto;right: auto;
+    top: auto;bottom: auto;
+
+}
+.image-4{
+    background-size:cover;
+    height: 45%;width: auto;
+    position: absolute;
+    z-index: 0;
+    left: auto;right: auto;
+    top: auto;bottom: auto;
+
+}
+.image-5{
+    background-size:cover;
+    height: 45%;width: auto;
+    position: absolute;
+    z-index: 0;
+    left: auto;right: auto;
+    top: auto;bottom: auto;
+
+}
+
+
+
+/* imagen contenedor 3 */
+.cp-3-image-1{
+
+    background-size:cover;
+    height: 600px;width: auto;
+    position: absolute;
+    z-index: 0;
+    left: auto;right: auto;
+    top: auto;bottom: auto;
+
+
+}
+
+
+
+
+
+
+
+/* Sub contenedor Hijo del segundo contenedor padre */
+.principal-2{
+    width: 100%;
+    /* padding:5px; */
+    height: 1000px;
+    background-color: rgb(185, 144, 218);
+    margin-top: 40px;
+}
+
+/* sub contenedor Hijo del segundo contenedor padre */
+.creative-cloud-for{
+    
+    align-content: center;
+    align-items: center;
+
+}
+
+
+/*hijo del Sub contenedor del segundo contenedor padre */
+.subprincipal-2{
+    margin: 1%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid red;
+    height: 95%;
+    justify-content: space-between;
+
+    align-items: center;
+    align-content: center;
+    
+    
+
+}
+.text-edit{
+
+    display: none;
+
+}
+.mark-text{
+
+    display: none;
+
+}
+
+
+
+
+/* Tercer contenedor padre */
+.principal-3{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(168, 224, 190);
+}
+/* Cuarto contenedor padre */
+.principal-4{
+    height: 600px;
+    width: 100%;
+
+
+    background-color: rgb(218, 141, 184);
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+/* Cuarto contenedor padre */
+.explore-acrobat{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/*  Hijos del sub segundo  contenedor padre */
+.sbh{
+
+
+
+
+    height: 47%;
+    width: calc(32%);
+}   
+/* Hijos del  contenedor cuatro padre */
+.sbh2{
+    background-color: rgb(255, 190, 213);
+    border: solid 3px rgb(30, 112, 140);
+    flex-grow: 2;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-top: calc(20px*2);
+    margin-bottom: calc(20px*2);
+    justify-content: space-between;
+    height:auto;
+
+}
+
+
+
+
+
+/* Contenedor 5 principal */
+
+
+.principal-5{
+    background-color: rgb(172, 172, 214);
+    height: 200px;
+
+    position:relative;
+
+
+
+}
+
+
+
+/*
+background-color: aquamarine;
+border: 5px solid black;
+ */
+.text-5{
+
+
+margin-top:90px;
+text-align: center;
+
+justify-content: center;
+
+
+
+
+}
+
+
+.creative-subhijo{
+    background-color: rgb(224, 137, 115);
+    border: solid 3px rgb(15, 15, 79);
+
+}
+.creative-subhijo-2{
+    background-color: rgb(10, 47, 87);
+    border: solid 3px rgb(15, 15, 79);
+
+}
+.creative-subhijo-3{
+    background-color: rgb(106, 103, 182);
+    border: solid 3px rgb(15, 15, 79);
+}
+.creative-subhijo-4{
+    background-color: rgb(176, 147, 177);
+    border: solid 3px rgb(15, 15, 79);
+
+    height:47%;
+    flex-grow: 0.96;
+}
+
+.creative-subhijo-5{
+    background-color: rgb(124, 213, 255);
+    border: solid 3px rgb(15, 15, 79);
+
+
+}
+
+
+
+
+/* Pie de pagina */
+.footer{
+    margin-top: 100px;
+
+    height: 800px;
+    background-color: rgb(136, 112, 135);
+    border: solid 3px black;
+
+}
+
+
+
+
+
+
+/* (Edicion de contenedor 1) */
+
+/* Primer contenedor padre */
+.principal{
+    width: 100%;
+
+    height: 6.5in;
+    background-color: rgb(156, 17, 96);
+
+
+    display: flex;
+
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.sub-principal-1{
+position: absolute;
+background-color: rgba(165, 42, 42, 0.174);
+width: 30%;height: 55%;
+right: 55%;
+
+}
+.sub-principal-2{
+    position: absolute;
+    background-color: rgba(32, 75, 206, 0.161);
+width: 50%;height: 55%;
+left: 45%;
+
+
+
+    
+    
+
+
+}
+.img-1-2{
+
+    height: 100%;
+}
+
+
+
+
+.img-img-1{
+
+    background-color: blue;
+    width: 100%;height: 100%;
+
+
+
+}
+.img-1{
+
+    background-size: cover;
+    height: 100%;width: 100%;
+
+} 
+
+.img{
+
+
+
+}
+.text-p-sub-1 {
+    position: absolute;
+
+
+    
+
+}
+.text-p-sub-2 {
+    position: absolute;
+}
+
+.text-sub{
+
+    
+   
+}
+.titulo-sub-1{
+
+    font-size: 35pt;
+    font-weight: 610;
+}
+.text-sub-2{
+
+    font-weight: 550;
+    font-size: 15pt;
+}
+.text-sub{
+
+    font-weight: 550;
+}

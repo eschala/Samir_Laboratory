@@ -1,0 +1,62 @@
+nav{
+    text-align-last: right;
+    background-color: rgb(170, 200, 233);
+    height: 60px;
+    padding-top: 25px;
+    border-radius: 15px;
+
+}
+nav a {
+    
+padding-top: 20px;
+    text-decoration: none;
+    margin-inline: 30px;
+
+}
+.galery{
+    padding: auto;
+
+
+}
+.start{
+
+    padding: auto;
+}
+.txt{
+    color: black;
+    text-decoration: none;
+    font-weight:bold ; 
+    font-size: 20pt;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+.contenedor{
+
+height: 1080px;
+
+}
+
+
+.parrafo{
+    
+    align-items: center;
+    
+}
+
+footer{
+    font-family: 'Raleway', sans-serif;;
+    
+
+
+    padding: 20px;
+   
+    height: 180px;
+    background-color:rgb(170, 200, 233);
+}
+.columm{
+
+    border-radius: 30px;
+
+}
