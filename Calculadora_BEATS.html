@@ -15,26 +15,26 @@
         <ul class="">
             <h2>Calcular</h2>
             <li>
-                <p>Ritmo/Bpm</p><input type="checkbox" name="" id="bpmOption" onmouseout="calcRitmo()">
+                <p>Ritmo/Bpm</p><input type="checkbox" name="" id="bpmOption" onclick="enviar()">
             </li>
             <li>
-                <p>Tiempo</p><input type="checkbox" name="" id="timeOption">
+                <p>Tiempo</p><input type="checkbox" name="" id="timeOption" onclick="enviar()">
             </li>
             <li>
-                <p>Compases</p><input type="checkbox" name="" id="beatOption">
+                <p>Compases</p><input type="checkbox" name="" id="beatOption" onclick="enviar()">
             </li>
             <li>
-                <p>Duracion de movimientos </p><input type="checkbox" name="" id="timeMoves">
+                <p>Duracion de movimientos </p><input type="checkbox" name="" id="timeMoves" onclick="enviar()">
             </li>
             <li>
-                <p>Cantidad de movimientos</p><input type="checkbox" name="" id="amountMoves">
+                <p>Cantidad de movimientos</p><input type="checkbox" name="" id="amountMoves" onclick="enviar()">
             </li>
-            <li><button id="" onclick="enviar()">Enviar</button></li>
+            <li><button type="button" id="" onclick="enviar()">Enviar</button></li>
         </ul>
     </form>
 
     <div class="flex-content">
-        <form action="" class="forRitmo form-select">
+        <form action="" class="forRitmo form-select" id="FormRitmo">
             <ul class="form-selection aaaa">
                 <h2>Ingresar datos para calcular el ritmo</h2>
                 <label for="">Compases</label>
@@ -43,11 +43,11 @@
                 <input type="text" name="" id="time-forRitmo" required>
                 <label for="">Resultado</label>
                 <h3 class="h3" type="text" id="result-forRitmo">a</h3>
-                <li><button id="" onclick="calcular()">calcular</button></li>
+                <li><button type="button" id="calcularRitmo" onclick="calcular()">calcular</button></li>
             </ul>
 
         </form>
-        <form action="" class="forTiempo form-select">
+        <form action="" class="forTiempo form-select" id="FormTiempo">
             <ul class="form-selection aaaa">
                 <h2>Ingresar datos para calcular el tiempo</h2>
                 <label for="">Tempo</label>
@@ -56,11 +56,11 @@
                 <input type="text" name="" id="beat-forTiempo" required>
                 <label for="">Resultado</label>
                 <input type="text" name="" id="result-forTiempo">
-                <li><button id="" onclick="calcular()">calcular</button></li>
+                <li><button type="button" id="CalcularTiempo" onclick="calcular()">calcular</button></li>
             </ul>
 
         </form>
-        <form action="" class="forCompaces form-select">
+        <form action="" class="forCompaces form-select" id="FormCompaces">
             <ul class="form-selection aaaa">
                 <h2>Ingresar datos para calcular los compaces</h2>
                 <label for="">Tempo</label>
@@ -69,11 +69,11 @@
                 <input type="text" name="" id="time-forCompaces" required>
                 <label for="">Resultado</label>
                 <input type="text" name="" id="result-forCompaces">
-                <li><button id="" onclick="calcular()">calcular</button></li>
+                <li><button type="button" id="CalcularCompaces" onclick="calcular()">calcular</button></li>
             </ul>
 
         </form>
-        <form action="" class="forDuracionMovimiento form-select">
+        <form action="" class="forDuracionMovimiento form-select" id="FormDuraMovimiento">
             <ul class="form-selection aaaa">
                 <h2>Ingresar datos para calcular la duracion de movimiento</h2>
                 <label for="">Compases</label>
@@ -82,11 +82,11 @@
                 <input type="text" name="" id="time-forDuracionMovimiento" required>
                 <label for="">Resultado</label>
                 <input type="text" name="" id="result-forDuracionMovimiento">
-                <li><button id="" onclick="calcular()">calcular</button></li>
+                <li><button type="button" id="Calcular" onclick="calcular()">calcular</button></li>
             </ul>
 
         </form>
-        <form action="" class="forMovimientos form-select">
+        <form action="" class="forMovimientos form-select" id="FormMovimiento">
             <ul class="form-selection aaaa">
                 <h2>Ingresar datos para calcular los movimientos</h2>
                 <label for="">Compases</label>
@@ -95,7 +95,7 @@
                 <input type="text" name="" id="time-forMovimientos" required>
                 <label for="">Resultado</label>
                 <input type="text" name="" id="result-forMovimientos">
-                <li><button id="" onclick="calcular()">calcular</button></li>
+                <li><button type="button" id="" onclick="calcular()">calcular</button></li>
             </ul>
 
         </form>

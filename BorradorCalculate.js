@@ -1,56 +1,93 @@
 {
-    if (optionInput == 1) {
-      /* Ritmo/Tempo/Bpm */
-      Compases = prompt("Escriba cuantos compases se usaron");
-      Tiempo = prompt("Escriba cuanto de usó en minutos");
+  /* Funciones */
 
-      operacion = (Compases / Tiempo) * 60;
-    }
-    if (optionInput == 2) {
-      /* Tiempo */
-      Tempo = prompt("Escriba Cual es el ritmo/Bpm");
-      Compases = prompt("Escriba cuantos compases se usaron");
+  if (optionInput == 1) {
+    /* Ritmo/Tempo/Bpm */
+    Compases = document.getElementById("beat-forRitmo").value;
+    Tiempo = document.getElementById("time-forRitmo").value;
 
-      operacion = ((1 / (Compases / 60)) * Tempo) / 60;
-    }
-    if (optionInput == 3) {
-      /* Compaces */
-      Tempo = prompt("Escriba Cual es el ritmo/Bpm");
-      Tiempo = prompt("Escriba cuanto de usó en minutos");
+    operacion = (Compases / Tiempo) * 60;
 
-      operacion = (Compases / Tiempo) * 60;
-    }
-    if (optionInput == 4) {
-      /* Duracion Movimiento */
-      Compases = prompt("Escriba cuantos compases se usaron");
-      Tiempo = prompt("Escriba cuanto de usó en minutos");
-
-      operacion = (Compases / Tiempo) * 60;
-    }
-    if (optionInput == 5) {
-      /* Movimientos */
-      Compases = prompt("Escriba cuantos compases se usaron");
-      Tiempo = prompt("Escriba cuanto de usó en minutos");
-
-      operacion = (Compases / Tiempo) * 60;
-    }
+    document.getElementById("result-forRitmo").innerHTML = operacion;
+    alert(typeof Compases + "<->" + typeof Tiempo + "<->" + typeof operacion);
+    alert(operacion);
   }
+  if (optionInput == 2) {
+    /* Tiempo */
+    Tempo = document.getElementById("bpm-forTiempo").value;
+    Compases = document.getElementById("beat-forTiempo").value;
 
-  function calculate() {
-    // Obtener los valores de los inputs
-    var num1 = parseFloat(document.getElementById("num1").value);
-    var num2 = parseFloat(document.getElementById("num2").value);
-    var operator = document.getElementById("operator").value;
-    var resultSpan = document.getElementById("result");
+    operacion = ((1 / (Compases / 60)) * Tempo) / 60;
+    document.getElementById("result-forTiempo").innerHTML = operacion;
+  }
+  if (optionInput == 3) {
+    /* Compaces */
+    Tempo = document.getElementById("bpm-forCompaces").value;
+    Tiempo = document.getElementById("time-forCompaces").value;
 
-    // Realizar la operación seleccionada
-    var result;
-    if (operator === "+") {
-        result = num1 + num2;
-    } else if (operator === "*") {
-        result = num1 * num2;
-    }
+    operacion = (Compases / Tiempo) * 60;
+    document.getElementById("result-forCompaces").innerHTML = operacion;
+  }
+  if (optionInput == 4) {
+    /* Duracion Movimiento */
+    Compases = document.getElementById("beat-forDuracionMovimiento").value;
+    Tiempo = document.getElementById("time-forDuracionMovimiento").value;
 
-    // Mostrar el resultado
-    resultSpan.textContent = result;
+    operacion = (Compases / Tiempo) * 60;
+    document.getElementById("result-forDuracionMovimiento").innerHTML =
+      operacion;
+  }
+  if (optionInput == 5) {
+    /* Movimientos */
+    Compases = document.getElementById("beat-forMovimientos").value;
+    Tiempo = document.getElementById("time-forMovimientos").value;
+
+    operacion = (Compases / Tiempo) * 60;
+    document.getElementById("result-forMovimientos").innerHTML = operacion;
+  }
+}
+
+function calcular() 
+{
+  if (optionInput == 1) {
+    /* Ritmo/Tempo/Bpm */
+    Compases = document.getElementById("beat-forRitmo").value;
+    Tiempo = document.getElementById("time-forRitmo").value;
+
+    operacion = (Compases / Tiempo) * 60;
+    document.getElementById("result-forRitmo").innerHTML = operacion;
+  }
+  if (optionInput == 2) {
+    /* Tiempo */
+    Tempo = document.getElementById("bpm-forTiempo").value;
+    Compases = document.getElementById("beat-forTiempo").value;
+
+    operacion = ((1 / (Compases / 60)) * Tempo) / 60;
+    document.getElementById("result-forTiempo").innerHTML = operacion;
+  }
+  if (optionInput == 3) {
+    /* Compaces */
+    Tempo = document.getElementById("bpm-forCompaces").value;
+    Tiempo = document.getElementById("time-forCompaces").value;
+
+    operacion = (Compases / Tiempo) * 60;
+    document.getElementById("result-forCompaces").innerHTML = operacion;
+  }
+  if (optionInput == 4) {
+    /* Duracion Movimiento */
+    Compases = document.getElementById("beat-forDuracionMovimiento").value;
+    Tiempo = document.getElementById("time-forDuracionMovimiento").value;
+
+    operacion = (Compases / Tiempo) * 60;
+    document.getElementById("result-forDuracionMovimiento").innerHTML =
+      operacion;
+  }
+  if (optionInput == 5) {
+    /* Movimientos */
+    Compases = document.getElementById("beat-forMovimientos").value;
+    Tiempo = document.getElementById("time-forMovimientos").value;
+
+    operacion = (Compases / Tiempo) * 60;
+    document.getElementById("result-forMovimientos").innerHTML = operacion;
+  }
 }
