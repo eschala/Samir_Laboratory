@@ -103,8 +103,10 @@
     display: flex;
     justify-content: center;
     font-weight: bold;
-
+    color: rgba(84, 84, 94, 0.507);
     background-color: aliceblue;
     width: 90%;
     border-radius: 20px;
 }
+
+
