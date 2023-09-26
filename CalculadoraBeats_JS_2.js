@@ -111,7 +111,7 @@ function calcularRITMO() {
   let Compases = document.getElementById("beat-forRitmo").value;
   let Tiempo = document.getElementById("time-forRitmo").value;
 
-  operacion = 0;
+  operacion = (Compases/(Tiempo));
   document.getElementById("result-forRitmo").innerHTML =
     operacion + "Bpm o " + operacion + " Golpes por Minuto";
 }
@@ -121,7 +121,7 @@ function calcularTIEMPO() {
   let Tempo = document.getElementById("bpm-forTiempo").value;
   let Compases = document.getElementById("beat-forTiempo").value;
 
-  operacion = 0;
+  operacion = (Compases/(Tempo));
   if (operacion == 1) {
     document.getElementById("result-forTiempo").innerHTML =
       operacion + " minuto o " + operacion * 60 + " segundos";
@@ -136,7 +136,7 @@ function calcularCOMPASES() {
   let Tempo = document.getElementById("bpm-forCompaces").value;
   let Tiempo = document.getElementById("time-forCompaces").value;
 
-  operacion = 0;
+  operacion = Tempo*Tiempo;
   document.getElementById("result-forCompaces").innerHTML = operacion;
 }
 
@@ -145,16 +145,16 @@ function calcularTiempoMOVIMIENTO() {
   let Compases = document.getElementById("beat-forDuracionMovimiento").value;
   let Tiempo = document.getElementById("time-forDuracionMovimiento").value;
 
-  operacion = 0;
+  operacion = (1/Compases)*(Tiempo*60);
   document.getElementById("result-forDuracionMovimiento").innerHTML = operacion;
 }
 
 function calcularMOVIMIENTO() {
   /* Movimientos */
-  let Compases = document.getElementById("beat-forMovimientos").value;
+  let Tempo = document.getElementById("beat-forMovimientos").value;
   let Tiempo = document.getElementById("time-forMovimientos").value;
 
-  operacion = 0;
+  operacion = (Tempo*(Tiempo));
   document.getElementById("result-forMovimientos").innerHTML = operacion;
 }
 
