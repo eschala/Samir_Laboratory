@@ -137,7 +137,7 @@ function calcularCOMPASES() {
   let Tiempo = document.getElementById("time-forCompaces").value;
 
   operacion = Tempo*Tiempo;
-  document.getElementById("result-forCompaces").innerHTML = operacion;
+  document.getElementById("result-forCompaces").innerHTML = operacion +" compases";
 }
 
 function calcularTiempoMOVIMIENTO() {
@@ -146,7 +146,7 @@ function calcularTiempoMOVIMIENTO() {
   let Tiempo = document.getElementById("time-forDuracionMovimiento").value;
 
   operacion = (1/Compases)*(Tiempo*60);
-  document.getElementById("result-forDuracionMovimiento").innerHTML = operacion;
+  document.getElementById("result-forDuracionMovimiento").innerHTML = operacion + "s o " +operacion+" segundos";
 }
 
 function calcularMOVIMIENTO() {
@@ -155,7 +155,7 @@ function calcularMOVIMIENTO() {
   let Tiempo = document.getElementById("time-forMovimientos").value;
 
   operacion = (Tempo*(Tiempo));
-  document.getElementById("result-forMovimientos").innerHTML = operacion;
+  document.getElementById("result-forMovimientos").innerHTML = operacion + " movimientos";
 }
 
 function changeColor_calcularRITMO() {
