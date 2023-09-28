@@ -9,6 +9,8 @@
 
     display: flex;
     flex-wrap: wrap;
+
+    flex-direction: row;
 }
 
 
@@ -24,6 +26,7 @@
     display: block;
     display: none;
     margin: 10px;
+    width: 850px;
 
 
 
@@ -36,11 +39,13 @@
 
     display: none;
     margin: 10px;
+    width: 850px;
 
 
 
-
+    order: ;
     background-color: rgb(255, 174, 0);
+    
 }
 
 .forCompaces {
@@ -48,6 +53,7 @@
 
     display: none;
     margin: 10px;
+    width: 850px;
 
 
 
@@ -60,6 +66,7 @@
 
     display: none;
     margin: 10px;
+    width: 850px;
 
 
 
@@ -71,6 +78,7 @@
 
     display: none;
     margin: 10px;
+    width: 850px;
 
 
 
@@ -109,4 +117,43 @@
     border-radius: 20px;
 }
 
+.container-section{
 
+}
+
+
+.container-ritmo-section{
+
+    width: 850px;
+
+
+    background-color: cadetblue;
+}
+.container-tiempo-section{
+
+    width: 850px;
+
+
+    background-color: rgb(99, 95, 160);
+}
+.container-compases-section{
+
+    width: 850px;
+
+
+    background-color: rgb(95, 160, 117);
+}
+.container-duracionMoves-section{
+
+    width: 850px;
+
+
+    background-color: rgb(152, 95, 160);
+}
+.container-Moves-section{
+
+    width: 850px;
+
+
+    background-color: rgb(160, 95, 117);
+}

@@ -34,76 +34,110 @@
     </form>
 
     <div class="flex-content">
-        <form action="" class="forRitmo form-select" id="FormRitmo">
-            <ul class="form-selection aaaa">
-                <h2>Ingresar datos para calcular el ritmo</h2>
-                <label for="">Compases</label>
-                <input type="text" name="" id="beat-forRitmo" required>
-                <label for="">Tiempo</label>
-                <input type="text" name="" id="time-forRitmo" required>
+        <div class="organizar-1">
+            <form action="" class="forRitmo form-select" id="FormRitmo">
+                <ul class="form-selection aaaa">
+                    <h2>Ingresar datos para calcular el ritmo</h2>
+                    <label for="">Compases</label>
+                    <input type="text" name="" id="beat-forRitmo" required>
+                    <label for="">Tiempo</label>
+                    <input type="text" name="" id="time-forRitmo" required onmouseleave="changeColor_calcularRITMO()">
+                    <button type="button" id="calcularRitmo" onclick="changeColor_calcularRITMO()">calcular</button>
 
-                <h3 class="h3" type="text" id="result-forRitmo">el Resultado se muestra aqui</h3>
-                <li><button type="button" id="calcularRitmo" onclick="changeColor_calcularRITMO()">calcular</button></li>
-            </ul>
+                    <h3 class="h3" type="text" id="result-forRitmo">el Resultado se muestra aqui</h3>
 
-        </form>
-        <form action="" class="forTiempo form-select" id="FormTiempo">
-            <ul class="form-selection aaaa">
-                <h2>Ingresar datos para calcular el tiempo</h2>
-                <label for="">Tempo</label>
-                <input type="text" name="" id="bpm-forTiempo" required>
-                <label for="">Compases</label>
-                <input type="text" name="" id="beat-forTiempo" required>
+                </ul>
 
-                <h3 class="h3" type="text" id="result-forTiempo">el Resultado se muestra aqui</h3>
-                <li><button type="button" id="CalcularTiempo" onclick="changeColor_calcularTIEMPO()">calcular</button></li>
-            </ul>
+            </form>
+            <div class="container-ritmo-section container-section">
 
-        </form>
-        <form action="" class="forCompaces form-select" id="FormCompaces">
-            <ul class="form-selection aaaa">
-                <h2>Ingresar datos para calcular los compases</h2>
-                <label for="">Tempo</label>
-                <input type="text" name="" id="bpm-forCompaces" required>
-                <label for="">Tiempo</label>
-                <input type="text" name="" id="time-forCompaces" required>
-
-                <h3 class="h3" type="text" id="result-forCompaces">el Resultado se muestra aqui</h3>
-                <li><button type="button" id="CalcularCompaces" onclick="changeColor_calcularCOMPASES()">calcular</button></li>
-            </ul>
-
-        </form>
-        <form action="" class="forDuracionMovimiento form-select" id="FormDuraMovimiento">
-            <ul class="form-selection aaaa">
-                <h2>Ingresar datos para calcular la duracion de movimiento</h2>
-                <label for="">Compases</label>
-                <input type="text" name="" id="beat-forDuracionMovimiento" required>
-                <label for="">Tiempo</label>
-                <input type="text" name="" id="time-forDuracionMovimiento" required>
-
-                <h3 class="h3" type="text" id="result-forDuracionMovimiento">el Resultado se muestra aqui</h3>
-                <li><button type="button" id="Calcular" onclick="changeColor_calcularTMOVES()">calcular</button></li>
-            </ul>
-
-        </form>
-        <form action="" class="forMovimientos form-select" id="FormMovimiento">
-            <ul class="form-selection aaaa">
-                <h2>Ingresar datos para calcular los movimientos</h2>
-                <label for="">Compases</label>
-                <input type="text" name="" id="beat-forMovimientos" required>
-                <label for="">Tiempo</label>
-                <input type="text" name="" id="time-forMovimientos" required>
-
-                <h3 class="h3" type="text" id="result-forMovimientos">el Resultado se muestra aqui</h3>
-                <li><button type="button" id="" onclick="changeColor_calcularMOVES()">calcular</button></li>
-            </ul>
-
-        </form>
-        <div class="TEST">
-            <h1>PROBANDO</h1>
+            </div>
         </div>
-    </div>
+        <div class="organizar-2">
+            <form action="" class="forTiempo form-select" id="FormTiempo">
+                <ul class="form-selection aaaa">
+                    <h2>Ingresar datos para calcular el tiempo</h2>
+                    <label for="">Tempo</label>
+                    <input type="text" name="" id="bpm-forTiempo" required>
+                    <label for="">Compases</label>
+                    <input type="text" name="" id="beat-forTiempo" required>
 
+                    <h3 class="h3" type="text" id="result-forTiempo">el Resultado se muestra aqui</h3>
+                    <li><button type="button" id="CalcularTiempo"
+                            onclick="changeColor_calcularTIEMPO()">calcular</button></li>
+                </ul>
+
+            </form>
+            <div class="container-tiempo-section container-section">
+
+            </div>
+        </div>
+        <div class="organizar-3">
+            <form action="" class="forCompaces form-select" id="FormCompaces">
+                <ul class="form-selection aaaa">
+                    <h2>Ingresar datos para calcular los compases</h2>
+                    <label for="">Tempo</label>
+                    <input type="text" name="" id="bpm-forCompaces" required>
+                    <label for="">Tiempo</label>
+                    <input type="text" name="" id="time-forCompaces" required>
+
+                    <h3 class="h3" type="text" id="result-forCompaces">el Resultado se muestra aqui</h3>
+                    <li><button type="button" id="CalcularCompaces"
+                            onclick="changeColor_calcularCOMPASES()">calcular</button></li>
+                </ul>
+
+            </form>
+            <div class="container-compases-section container-section">
+
+            </div>
+        </div>
+        <div class="organizar-4">
+            <form action="" class="forDuracionMovimiento form-select" id="FormDuraMovimiento">
+                <ul class="form-selection aaaa">
+                    <h2>Ingresar datos para calcular la duracion de movimiento</h2>
+                    <label for="">Compases</label>
+                    <input type="text" name="" id="beat-forDuracionMovimiento" required>
+                    <label for="">Tiempo</label>
+                    <input type="text" name="" id="time-forDuracionMovimiento" required>
+
+                    <h3 class="h3" type="text" id="result-forDuracionMovimiento">el Resultado se muestra aqui</h3>
+                    <li><button type="button" id="Calcular" onclick="changeColor_calcularTMOVES()">calcular</button>
+                    </li>
+                </ul>
+
+            </form>
+            <div class="container-duracionMoves-section container-section">
+
+            </div>
+        </div>
+        <div class="organizar-5">
+            <form action="" class="forMovimientos form-select" id="FormMovimiento">
+                <ul class="form-selection aaaa">
+                    <h2>Ingresar datos para calcular los movimientos</h2>
+                    <label for="">Compases</label>
+                    <input type="text" name="" id="beat-forMovimientos" required>
+                    <label for="">Tiempo</label>
+                    <input type="text" name="" id="time-forMovimientos" required>
+
+                    <h3 class="h3" type="text" id="result-forMovimientos">el Resultado se muestra aqui</h3>
+                    <li><button type="button" id="" onclick="changeColor_calcularMOVES()">calcular</button></li>
+                </ul>
+
+            </form>
+            <div class="container-Moves-section container-section">
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+    <div class="TEST">
+        <h1>PROBANDO</h1>
+    </div>
 
 
 
