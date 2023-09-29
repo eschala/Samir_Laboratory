@@ -21,7 +21,7 @@
                 <p>Tiempo</p><input type="checkbox" name="" id="timeOption" onclick="enviar()">
             </li>
             <li>
-                <p>Compases</p><input type="checkbox" name="" id="beatOption" onclick="enviar()">
+                <p>Golpes</p><input type="checkbox" name="" id="beatOption" onclick="enviar()">
             </li>
             <li>
                 <p>Duracion de movimientos </p><input type="checkbox" name="" id="timeMoves" onclick="enviar()">
@@ -29,19 +29,19 @@
             <li>
                 <p>Cantidad de movimientos</p><input type="checkbox" name="" id="amountMoves" onclick="enviar()">
             </li>
-            <li><button type="button" id="" onclick="enviar()">Enviar</button></li>
+
         </ul>
     </form>
 
     <div class="flex-content">
-        <div class="organizar-1">
-            <form action="" class="forRitmo form-select" id="FormRitmo">
-                <ul class="form-selection aaaa">
+        <div id="FormRitmo" class="organizar-1" >
+            <form action="" class="forRitmo form-select" onmousemove="changeColor_calcularRITMO()">
+                <ul class="form-selection aaaa" >
                     <h2>Ingresar datos para calcular el ritmo</h2>
-                    <label for="">Compases</label>
+                    <label for="">Golpes</label>
                     <input type="text" name="" id="beat-forRitmo" required>
                     <label for="">Tiempo</label>
-                    <input type="text" name="" id="time-forRitmo" required onmouseleave="changeColor_calcularRITMO()">
+                    <input type="text" name="" id="time-forRitmo" required onmouseout="changeColor_calcularRITMO()">
                     <button type="button" id="calcularRitmo" onclick="changeColor_calcularRITMO()">calcular</button>
 
                     <h3 class="h3" type="text" id="result-forRitmo">el Resultado se muestra aqui</h3>
@@ -50,32 +50,55 @@
 
             </form>
             <div class="container-ritmo-section container-section">
+                <div>
+                    <h1 id="bpmScreen" class="H1 Titulo">BPM</h1>
+                    <h2 id="timeBeatScreen">Duración del Golpe</h2>
+                    <h3 id="timeCompasScreen">Duración del compás</h3>
+                    <h4 id="redondaScreen">Redonda</h4>
+                    <h4 id="blancaScreen">Blanca</h4>
+                    <h4 id="negraScreen">Negra</h4>
+                    <h5 id="corcheaScreen">Corchea</h5>
+                    <h5 id="semiCorcheaScreen">Semi-Corchea</h5>
+                    <h5 id="fusaScreen">Fusa</h5>
+                    <h5 id="semiFusaScreen">Semi-Fusa</h5>
+                </div>
 
             </div>
         </div>
-        <div class="organizar-2">
-            <form action="" class="forTiempo form-select" id="FormTiempo">
+        <div id="FormTiempo" class="organizar-2">
+            <form action="" class="forTiempo form-select" onmousemove="changeColor_calcularTIEMPO()">
                 <ul class="form-selection aaaa">
                     <h2>Ingresar datos para calcular el tiempo</h2>
                     <label for="">Tempo</label>
                     <input type="text" name="" id="bpm-forTiempo" required>
-                    <label for="">Compases</label>
+                    <label for="">Golpes</label>
                     <input type="text" name="" id="beat-forTiempo" required>
-
+                    <button type="button" id="CalcularTiempo" onclick="changeColor_calcularTIEMPO()">calcular</button>
                     <h3 class="h3" type="text" id="result-forTiempo">el Resultado se muestra aqui</h3>
-                    <li><button type="button" id="CalcularTiempo"
-                            onclick="changeColor_calcularTIEMPO()">calcular</button></li>
+                    
                 </ul>
 
             </form>
             <div class="container-tiempo-section container-section">
+                <div>
+                    <h1 id="bpmScreen2" class="H1 Titulo">BPM</h1>
+                    <h2 id="timeBeatScreen2">Duración del Golpe</h2>
+                    <h3 id="timeCompasScreen2">Duración del compás</h3>
+                    <h4 id="redondaScreen2">Redonda</h4>
+                    <h4 id="blancaScreen2">Blanca</h4>
+                    <h4 id="negraScreen2">Negra</h4>
+                    <h5 id="corcheaScreen2">Corchea</h5>
+                    <h5 id="semiCorcheaScreen2">Semi-Corchea</h5>
+                    <h5 id="fusaScreen2">Fusa</h5>
+                    <h5 id="semiFusaScreen2">Semi-Fusa</h5>
+                </div>
 
             </div>
         </div>
-        <div class="organizar-3">
-            <form action="" class="forCompaces form-select" id="FormCompaces">
+        <div id="FormCompaces" class="organizar-3">
+            <form action="" class="forCompaces form-select" onmousemove="changeColor_calcularCOMPASES()">
                 <ul class="form-selection aaaa">
-                    <h2>Ingresar datos para calcular los compases</h2>
+                    <h2>Ingresar datos para calcular los Golpes</h2>
                     <label for="">Tempo</label>
                     <input type="text" name="" id="bpm-forCompaces" required>
                     <label for="">Tiempo</label>
@@ -88,14 +111,26 @@
 
             </form>
             <div class="container-compases-section container-section">
+                <div>
+                    <h1 id="bpmScreen3" class="H1 Titulo">BPM</h1>
+                    <h2 id="timeBeatScreen3">Duración del Golpe</h2>
+                    <h3 id="timeCompasScreen3">Duración del compás</h3>
+                    <h4 id="redondaScreen3">Redonda</h4>
+                    <h4 id="blancaScreen3">Blanca</h4>
+                    <h4 id="negraScreen3">Negra</h4>
+                    <h5 id="corcheaScreen3">Corchea</h5>
+                    <h5 id="semiCorcheaScreen3">Semi-Corchea</h5>
+                    <h5 id="fusaScreen3">Fusa</h5>
+                    <h5 id="semiFusaScreen3">Semi-Fusa</h5>
+                </div>
 
             </div>
         </div>
-        <div class="organizar-4">
-            <form action="" class="forDuracionMovimiento form-select" id="FormDuraMovimiento">
+        <div id="FormDuraMovimiento" class="organizar-4">
+            <form action="" class="forDuracionMovimiento form-select" onmousemove="changeColor_calcularTMOVES()">
                 <ul class="form-selection aaaa">
                     <h2>Ingresar datos para calcular la duracion de movimiento</h2>
-                    <label for="">Compases</label>
+                    <label for="">Golpes</label>
                     <input type="text" name="" id="beat-forDuracionMovimiento" required>
                     <label for="">Tiempo</label>
                     <input type="text" name="" id="time-forDuracionMovimiento" required>
@@ -107,14 +142,26 @@
 
             </form>
             <div class="container-duracionMoves-section container-section">
+                <div>
+                    <h1 id="bpmScreen4" class="H1 Titulo">BPM</h1>
+                    <h2 id="timeBeatScreen4">Duración del Golpe</h2>
+                    <h3 id="timeCompasScreen4">Duración del compás</h3>
+                    <h4 id="redondaScreen4">Redonda</h4>
+                    <h4 id="blancaScreen4">Blanca</h4>
+                    <h4 id="negraScreen4">Negra</h4>
+                    <h5 id="corcheaScreen4">Corchea</h5>
+                    <h5 id="semiCorcheaScreen4">Semi-Corchea</h5>
+                    <h5 id="fusaScreen4">Fusa</h5>
+                    <h5 id="semiFusaScreen4">Semi-Fusa</h5>
+                </div>
 
             </div>
         </div>
-        <div class="organizar-5">
-            <form action="" class="forMovimientos form-select" id="FormMovimiento">
+        <div id="FormMovimiento" class="organizar-5">
+            <form action="" class="forMovimientos form-select" onmousemove="changeColor_calcularMOVES()">
                 <ul class="form-selection aaaa">
                     <h2>Ingresar datos para calcular los movimientos</h2>
-                    <label for="">Compases</label>
+                    <label for="">Golpes</label>
                     <input type="text" name="" id="beat-forMovimientos" required>
                     <label for="">Tiempo</label>
                     <input type="text" name="" id="time-forMovimientos" required>
@@ -125,6 +172,18 @@
 
             </form>
             <div class="container-Moves-section container-section">
+                <div>
+                    <h1 id="bpmScreen5" class="H1 Titulo">BPM</h1>
+                    <h2 id="timeBeatScreen5">Duración del Golpe</h2>
+                    <h3 id="timeCompasScreen5">Duración del compás</h3>
+                    <h4 id="redondaScreen5">Redonda</h4>
+                    <h4 id="blancaScreen5">Blanca</h4>
+                    <h4 id="negraScreen5">Negra</h4>
+                    <h5 id="corcheaScreen5">Corchea</h5>
+                    <h5 id="semiCorcheaScreen5">Semi-Corchea</h5>
+                    <h5 id="fusaScreen5">Fusa</h5>
+                    <h5 id="semiFusaScreen5">Semi-Fusa</h5>
+                </div>
 
             </div>
         </div>

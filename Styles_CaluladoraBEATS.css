@@ -23,8 +23,7 @@
 .forRitmo {
     /* formulario ritmo */
 
-    display: block;
-    display: none;
+
     margin: 10px;
     width: 850px;
 
@@ -37,21 +36,20 @@
 .forTiempo {
     /* formulario tiempo */
 
-    display: none;
+
     margin: 10px;
     width: 850px;
 
 
 
-    order: ;
     background-color: rgb(255, 174, 0);
-    
+
 }
 
 .forCompaces {
     /* formulario compaz */
 
-    display: none;
+
     margin: 10px;
     width: 850px;
 
@@ -64,7 +62,7 @@
 .forDuracionMovimiento {
     /* formulario tiempo movimientos */
 
-    display: none;
+
     margin: 10px;
     width: 850px;
 
@@ -76,7 +74,7 @@
 .forMovimientos {
     /* formulario movimientos */
 
-    display: none;
+
     margin: 10px;
     width: 850px;
 
@@ -117,43 +115,76 @@
     border-radius: 20px;
 }
 
-.container-section{
-
-}
+.container-section {}
 
 
-.container-ritmo-section{
+.container-ritmo-section {
 
     width: 850px;
 
 
     background-color: cadetblue;
 }
-.container-tiempo-section{
+
+.container-tiempo-section {
 
     width: 850px;
 
 
     background-color: rgb(99, 95, 160);
 }
-.container-compases-section{
+
+.container-compases-section {
 
     width: 850px;
 
 
     background-color: rgb(95, 160, 117);
 }
-.container-duracionMoves-section{
+
+.container-duracionMoves-section {
 
     width: 850px;
 
 
     background-color: rgb(152, 95, 160);
 }
-.container-Moves-section{
+
+.container-Moves-section {
 
     width: 850px;
 
 
     background-color: rgb(160, 95, 117);
+}
+
+.organizar-1{
+    display: none;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+.organizar-2{
+    display: none;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+.organizar-3{
+    display: none;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+.organizar-4{
+    display: none;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+.organizar-5{
+    display: none;
+    justify-content: space-around;
+    width: 100%;
+   
 }
